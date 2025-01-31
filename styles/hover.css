@@ -1,0 +1,61 @@
+.vanilla-gif,
+.chocola-gif,
+.cinnamon-gif,
+.fraise-gif,
+.azuki-gif,
+.maple-gif {
+    transition: opacity 0.75s;
+}
+
+.vanilla-gif:hover,
+.chocola-gif:hover,
+.cinnamon-gif:hover,
+.fraise-gif:hover,
+.azuki-gif:hover,
+.maple-gif:hover {
+    opacity: 0;
+}
+
+.profile-image-div-vanilla,
+.profile-image-div-chocola,
+.profile-image-div-cinnamon,
+.profile-image-div-fraise,
+.profile-image-div-azuki,
+.profile-image-div-maple {
+    transition: background-image 0.75s, opacity 0.75s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.profile-image-div-vanilla:hover {
+    background-image: url("https://media1.tenor.com/m/ALI2-Nms6gYAAAAd/vanilla-nekopara.gif");
+    opacity: 1;  
+}
+
+.profile-image-div-chocola:hover {
+    background-image: url("https://media1.tenor.com/m/6gC-QLyeygQAAAAd/nekopara-chocola.gif");
+    opacity: 1;  
+}
+
+.profile-image-div-cinnamon:hover {
+    background-image: url("https://media1.tenor.com/m/BS9ouVBtupAAAAAd/nekopara.gif");
+    opacity: 1;
+}
+
+.profile-image-div-fraise:hover {
+    background-image: url("https://i.pinimg.com/564x/64/43/70/64437011eb293786186ddb2f3fa5db23.jpg");
+    opacity: 1;
+}
+
+.profile-image-div-azuki:hover {
+    background-image: url("https://media1.tenor.com/m/divJR-sRKlMAAAAd/nekopara-azuki.gif");
+    opacity: 1;
+}
+
+.profile-image-div-maple {
+    background-image: url("https://media1.tenor.com/m/eMVCgold52gAAAAd/nekopara-maple.gif");
+    opacity: 1;
+}
+

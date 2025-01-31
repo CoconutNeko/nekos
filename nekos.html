@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Neko Grids</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/profile.css">
+    <link rel="stylesheet" href="styles/hover.css">
+    <link rel="stylesheet" href="styles/container.css">
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            overflow-y: scroll;
+            overflow-x: scroll;
+            /* Optional: to avoid scrollbars */
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('nekos/all-nekos.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            filter: blur(8px);
+            z-index: -1;
+            /* Ensures it stays behind other content */
+        }
+
+        .whole-grid {
+            position: relative;
+            z-index: 1;
+            color: white;
+            /* Ensure text is readable */
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-div">
+        <div class="whole-grid">
+
+            <div class="vanilla-container">
+                <div class="profile-image-div-vanilla">
+                    <img class="vanilla-gif" src="nekos/vanilla.jpg">
+                </div>
+
+                <div class="profile-info-box">
+
+                    <div class="profile-title">
+                        <p>Vanilla</p>
+                    </div>
+
+                    <div class="profile-mutuals">
+                        <img src="nekos/shigure.jpg">
+                        <p>7 Mutual Friends</p>
+                    </div>
+
+                    <div class="profile-friend-button">
+                        <button class="friend-button-style">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chocola-container">
+                <div class="profile-image-div-chocola">
+                    <img class="chocola-gif" src="nekos/chocola.jpg">
+                </div>
+
+                <div class="profile-info-box">
+
+                    <div class="profile-title">
+                        <p>Chocola</p>
+                    </div>
+
+                    <div class="profile-mutuals">
+                        <img src="nekos/shigure.jpg">
+                        <p>4 Mutual Friends</p>
+                    </div>
+
+                    <div class="profile-friend-button">
+                        <button class="friend-button-style">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cinnamon-container">
+                <div class="profile-image-div-cinnamon">
+                    <img class="cinnamon-gif" src="nekos/cinnamon.jpg">
+                </div>
+
+                <div class="profile-info-box">
+
+                    <div class="profile-title">
+                        <p>Cinnamon</p>
+                    </div>
+
+                    <div class="profile-mutuals">
+                        <img src="nekos/shigure.jpg">
+                        <p>6 Mutual Friends</p>
+                    </div>
+
+                    <div class="profile-friend-button">
+                        <button class="friend-button-style">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fraise-container">
+                <div class="profile-image-div-fraise">
+                    <img class="fraise-gif" src="nekos/fraise.jpg">
+                </div>
+
+                <div class="profile-info-box">
+
+                    <div class="profile-title">
+                        <p>Fraise</p>
+                    </div>
+
+                    <div class="profile-mutuals">
+                        <img src="nekos/shigure.jpg">
+                        <p>9 Mutual Friends</p>
+                    </div>
+
+                    <div class="profile-friend-button">
+                        <button class="friend-button-style">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="azuki-container">
+                <div class="profile-image-div-azuki">
+                    <img class="azuki-gif" src="nekos/azuki.jpg">
+                </div>
+
+                <div class="profile-info-box">
+
+                    <div class="profile-title">
+                        <p>Azuki</p>
+                    </div>
+
+                    <div class="profile-mutuals">
+                        <img src="nekos/shigure.jpg">
+                        <p>3 Mutual Friends</p>
+                    </div>
+
+                    <div class="profile-friend-button">
+                        <button class="friend-button-style">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maple-container">
+                <div class="profile-image-div-maple">
+                    <img class="maple-gif" src="nekos/maple.jpg">
+                </div>
+
+                <div class="profile-info-box">
+
+                    <div class="profile-title">
+                        <p>Maple</p>
+                    </div>
+
+                    <div class="profile-mutuals">
+                        <img src="nekos/shigure.jpg">
+                        <p>7 Mutual Friends</p>
+                    </div>
+
+                    <div class="profile-friend-button">
+                        <button class="friend-button-style">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

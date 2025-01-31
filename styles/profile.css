@@ -1,0 +1,67 @@
+.profile-info-box {
+    margin-left: 7px;
+}
+
+.profile-mutuals img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.profile-mutuals {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profile-mutuals p { 
+    text-shadow: 
+        -1px -1px 0 grey,  
+         1px -1px 0 grey,
+        -1px  1px 0 grey,
+         1px  1px 0 grey;
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+.profile-title {
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.profile-friend-button {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+
+.friend-button-style {
+    background-color: #3b5998;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px 8px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: padding 0.75s;
+}
+
+.friend-button-style:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.friend-button-style:active {
+    background-color: rgba(59, 242, 255, 0.473);
+    transform: scale(0.95);
+    cursor: progress;
+}

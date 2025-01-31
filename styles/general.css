@@ -1,0 +1,28 @@
+body {
+    background-image: url('nekos/shigure.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+div {
+    margin: 0;
+}
+
+p {
+    font-family: Roboto, Arial;
+    margin: 0px;
+}
+
+.whole-grid {
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
